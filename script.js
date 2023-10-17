@@ -8,7 +8,7 @@ function erese (){
 }
 
 // Esta acción toma el valor de la pantalla y ejecuta los cálculos
-function calcucalculate(){
+function calculate(){
     const valorPantalla = document.getElementById('pantalla').value
     const resultado = eval(valorPantalla)
     document.getElementById('pantalla').value = resultado
