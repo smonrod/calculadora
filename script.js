@@ -2,7 +2,14 @@
 function agregar (valor){
     document.getElementById('pantalla').value += valor
 }
-
-function erese (valor){
+// Esta acción vacía la pantalla
+function erese (){
     document.getElementById('pantalla').value = ''
+}
+
+// Esta acción toma el valor de la pantalla y ejecuta los cálculos
+function calcucalculate(){
+    const valorPantalla = document.getElementById('pantalla').value
+    const resultado = eval(valorPantalla)
+    document.getElementById('pantalla').value = resultado
 }
