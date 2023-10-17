@@ -2,3 +2,7 @@
 function agregar (valor){
     document.getElementById('pantalla').value += valor
 }
+
+function erese (valor){
+    document.getElementById('pantalla').value = ''
+}
